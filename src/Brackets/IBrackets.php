@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Character;
+namespace App\Brackets;
 
 interface IBrackets{
 

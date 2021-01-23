@@ -6,7 +6,7 @@ use App\Chain\BracketsMaxSize;
 use App\Chain\CheckHasBrackets;
 use App\Chain\CheckIsFirstBracket;
 use App\Chain\CheckToogleBrackets;
-use App\Character\Factory\GenerateBrackets;
+use App\Brackets\Factory\GenerateBrackets;
 use App\Singleton\SingletonBracketProcess;
 
 class BracketsManagmanet{

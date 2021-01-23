@@ -2,9 +2,6 @@
 
 namespace App;
 
-use App\Character\Factory\GenerateBrackets;
-use App\Singleton\SingletonBracketProcess;
-
 class Container{
 	
 	public function start()

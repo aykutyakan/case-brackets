@@ -1,10 +1,11 @@
 <?php
 
-namespace App\Character;
+namespace App\Brackets;
 
-class Brackets implements IBrackets{
-	protected $openTag = "(";
-	protected $closeTag = ")";
+class CurlyBrackets implements IBrackets {
+	
+	private $openTag = "{";
+	private $closeTag = "}";
 	private $activeTag;
 
 	function __construct($activeTag)

@@ -1,11 +1,11 @@
 <?php 
 
-namespace App\Character\Factory;
+namespace App\Brackets\Factory;
 
-use App\Character\Brackets;
-use App\Character\CurlyBrackets;
-use App\Character\IBrackets;
-use App\Character\SquareBrackets;
+use App\Brackets\Brackets;
+use App\Brackets\CurlyBrackets;
+use App\Brackets\IBrackets;
+use App\Brackets\SquareBrackets;
 
 class GenerateBrackets {
     public static function buildBracketsInstance($char): ?IBrackets

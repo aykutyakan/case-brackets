@@ -2,7 +2,7 @@
 
 namespace App;
 
-use App\Character\IBrackets;
+use App\Brackets\IBrackets;
 
 class BracketsStackList{
 
