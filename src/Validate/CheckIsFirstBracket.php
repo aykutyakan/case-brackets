@@ -1,11 +1,10 @@
 <?php 
  
-namespace App\Chain;
+namespace App\Validate;
 
 use App\Singleton\SingletonBracketProcess;
 
 class CheckIsFirstBracket extends AbstractBracketsHandler{
-    private $limit = 10;
     public function handle($list, $bracket)
     {
         if($list->size() > 0)

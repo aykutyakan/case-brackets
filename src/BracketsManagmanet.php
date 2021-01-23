@@ -2,10 +2,10 @@
 
 namespace App;
 
-use App\Chain\BracketsMaxSize;
-use App\Chain\CheckHasBrackets;
-use App\Chain\CheckIsFirstBracket;
-use App\Chain\CheckToogleBrackets;
+use App\Validate\BracketsMaxSize;
+use App\Validate\CheckHasBrackets;
+use App\Validate\CheckIsFirstBracket;
+use App\Validate\CheckToogleBrackets;
 use App\Brackets\Factory\GenerateBrackets;
 use App\Singleton\SingletonBracketProcess;
 

@@ -1,6 +1,6 @@
 <?php 
 
-namespace App\Chain;
+namespace App\Validate;
 
 use App\Singleton\SingletonBracketProcess;
 
