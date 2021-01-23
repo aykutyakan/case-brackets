@@ -19,7 +19,6 @@ class Container{
 				break;
 		}
 		echo $bracketsManagment->message();
-		
 	}
 	
 }

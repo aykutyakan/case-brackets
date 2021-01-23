@@ -48,10 +48,17 @@ class BracketsManagmanet{
     public  function check() 
     {
         return  SingletonBracketProcess::getMessage() == null  ? true : false;
-        
+    }
+    public function isComplated() {
+        return $this->bracketsList->size() == 0 ? true : false;
     }
     public function message():string
     {
-        return SingletonBracketProcess::getMessage() ?? 'Başarılı';
+        if(!$this->check())
+            return SingletonBracketProcess::getMessage();
+        else if(!$this->isComplated())
+            return "Başarısız";
+        else 
+            return "Başarılı";
     }
 }
